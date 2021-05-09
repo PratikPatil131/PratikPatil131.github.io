@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+
+    <title>Museum of Candy</title>
+  </head>
+  
+  <body>
+
+    <nav id="mainNavbar" class="navbar navbar-light navbar-#80DAC7 nav-bar navbar-expand-md py-0 fixed-top"> <!Navbar>
+        <a href="#" class="navbar-brand">CANDY</a> <!Candy Brand>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation"> <!Sandwitch button>
+            <span class="navbar-toggler-icon"></span>   <!Span for sandwitch button>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks"> <!Other links like home about>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">TICKETS</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<section class="container-fluid px-0"> <! section>
+    <div class="row align-items-center">   <! dividing screen in two parts>
+
+        <div class="col-lg-6"> <! Making content responsive>
+            <div id="sweetgroup" class="text-center text-white d-none d-lg-block">
+                <h1>The<span>/</span>SWEET<span>/</span>Tooth</h1>
+                <h1>The<span>/</span>SWEET<span>/</span>Tooth</h1>
+                <h1>The<span>/</span>SWEET<span>/</span>Tooth</h1>
+                <h1>The<span>/</span>SWEET<span>/</span>Tooth</h1>
+                <h1>The<span>/</span>SWEET<span>/</span>Tooth</h1>
+                <h1>The<span>/</span>SWEET<span>/</span>Tooth</h1>
+                <h1>The<span>/</span>SWEET<span>/</span>Tooth</h1>
+
+            </div>
+        </div>
+
+        <div class="col-lg-6"> <!Making images responsive images>
+            <img class="img-fluid" src="Img/hand2.png" alt="">
+        </div>
+
+    </div>
+</section>
+
+
+
+<!--------------------------------------------------------------------------------------------------------------->>
+
+<section class="container-fluid px-0">
+    <div class="row align-items-center content">   <! flex box align property is used>  
+        <div class="col-md-6 order-2 ordeer-md-1">  <!half screem image side>
+                 <!here order is 2 because we want text to appear before image when we shrink screen. After that when we increase it upto and after medium size image goes to left side>
+            <img src="Img/milk.png" alt="" class="img-fluid">
+        </div>
+
+        <div class="col-md-6 text-center order-1 order-md-2"> <!half content wise putting a comtainer inside container>
+                                        <!order is for who will come first on shrinking>
+            <div class="row justify-content-center">  <!justify is flex property for horizontal alignment>
+           
+                <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">             <! The 10 out of 12 part of half RHS screen>
+  
+                <h2>Sinfully Sweet</h2>
+                    <img src="img/lolli_icon.png" alt="" class="d-none d-lg-inline"> <!d-none means display none again flex box property inline>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
+                        beatae, maiores deserunt
+                        in voluptatibus
+                        aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
+                        repellat eveniet quidem
+                        voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
+                        autem nam ex deserunt debitis
+                        eaque ratione! Nobis, quidem assumenda.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!------------------------------------------The normal without context switch block------------------------------------------->>
+
+        <div class="row align-items-center content">   <! flex box align property is used>  
+           
+    
+            <div class="col-md-6 text-center"> <!half content wise putting a comtainer inside container>
+                                            <!order is for who will come first on shrinking>
+                <div class="row justify-content-center">  <!justify is flex property for horizontal alignment>
+               
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">             <! The 10 out of 12 part of half RHS screen>
+      
+                    <h2>Sweet Temptations</h2>
+                        <img src="img/lolli_icon.png" alt="" class="d-none d-lg-inline"> <!d-none means display none again flex box property inline>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
+                            beatae, maiores deserunt
+                            in voluptatibus
+                            aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
+                            repellat eveniet quidem
+                            voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
+                            autem nam ex deserunt debitis
+                            eaque ratione! Nobis, quidem assumenda.</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-6  ">  <!half screem image side>
+                    <!here order is 2 because we want text to appear before image when we shrink screen. After that when we increase it upto and after medium size image goes to left side>
+               <img src="Img/gumball.png" alt="" class="img-fluid">
+           </div>
+            </div>
+
+            <!--------------------------------------switch context box--------------------------------------->>
+
+            <div class="row align-items-center content">   <! flex box align property is used>  
+                <div class="col-md-6 order-2 ordeer-md-1">  <!half screem image side>
+                         <!here order is 2 because we want text to appear before image when we shrink screen. After that when we increase it upto and after medium size image goes to left side>
+                    <img src="Img/sprinkles.png" alt="" class="img-fluid">
+                </div>
+        
+                <div class="col-md-6 text-center order-1 order-md-2"> <!half content wise putting a comtainer inside container>
+                                                <!order is for who will come first on shrinking>
+                    <div class="row justify-content-center">  <!justify is flex property for horizontal alignment>
+                   
+                        <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">             <! The 10 out of 12 part of half RHS screen>
+          
+                        <h2>Gum-Tastic</h2>
+                            <img src="img/lolli_icon.png" alt="" class="d-none d-lg-inline"> <!d-none means display none again flex box property inline>
+                            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, iste molestiae
+                                beatae, maiores deserunt
+                                in voluptatibus
+                                aspernatur architecto excepturi delectus soluta? Ipsa, deleniti dolorem hic consequatur
+                                repellat eveniet quidem
+                                voluptate necessitatibus dolorum delectus minus vitae, ut, veritatis sint ipsum magnam
+                                autem nam ex deserunt debitis
+                                eaque ratione! Nobis, quidem assumenda.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+        
+</section>
+        
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
+<script>
+    $(function () {
+       $(document).scroll(function () {
+           var $nav = 
+       })
+    })
+</script>
+
+  </body>
+</html>

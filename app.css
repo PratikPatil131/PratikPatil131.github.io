@@ -1,0 +1,74 @@
+body{
+    background-color: #f5d9df;
+    font-family: Nunito, sans-serif;
+}
+
+content{
+margin-top: 100;
+
+}
+
+
+
+.blurb h2 /*Header under blurb class*/
+{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p  /*Paragrapg under blurb class*/
+{
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.15rem;
+    line-height: 2;
+}
+
+#mainNavbar .navbar-brand /*for the color of brand name candy*/
+{
+    color: #ea1c2c;
+}
+
+#mainNavbar
+{
+    size: 1.5rem;   /*etting up the navbar size*/
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link
+{
+    color: white;   /* changing navbar links color to pure white*/
+}
+
+#mainNavbar .nav-link:hover
+{
+    color: #ea1c2c; /*hange on hover*/ 
+}
+
+#sweetgroup span
+{
+    color: #ea1c2c;    /*coloring slash*/
+}
+
+#sweetgroup h1
+{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.navbar.scrolled
+{
+    background-color: #dec0de;
+}
+
+@media (max-width: 1200px)
+{
+    #sweetgroup h1
+{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+}
+
